@@ -1,5 +1,5 @@
 # Problem-Solving
-# A collection of problem-solving exercises where solutions are explained and approaches are continuously improved.
+*A collection of problem-solving exercises where solutions are explained and approaches are continuously improved.*
 
 
 Each folder contains:
