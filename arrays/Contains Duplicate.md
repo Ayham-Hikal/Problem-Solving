@@ -1,4 +1,4 @@
-#🧩 Contains Duplicate (217)
+# 🧩 Contains Duplicate (217)
 ## Problem Explanation
 
 The goal of this problem is to check for duplicates in an integer array.
