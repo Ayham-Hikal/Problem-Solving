@@ -1,12 +1,12 @@
 # 🧩 Contains Duplicate (217)
-## Problem Explanation
+## 📌 Problem Description
 
 The goal of this problem is to check for duplicates in an integer array.
 
 Traverse the array and verify whether any element has already appeared before.  
 If a duplicate is found, return `true`. Otherwise, after checking all elements, return `false`.
 
-## Approach
+## 💡 Approach
 
 The idea is to detect duplicates while traversing the array only once.  
 We use a **set** to keep track of numbers that have already been seen.
@@ -19,7 +19,7 @@ If the loop finishes without finding any duplicates, we return `false`.
 
 Using a set allows for fast lookup, making the solution efficient.
 
-## Algorithm Steps
+## 🧠 Algorithm Steps
 
 1. Initialize an empty set to store visited elements.
 2. Traverse each element in the array:
