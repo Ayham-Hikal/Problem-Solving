@@ -27,4 +27,15 @@ Using a set allows for fast lookup, making the solution efficient.
    - If the element is already in the set, return `true`.
    - Otherwise, add the element to the set.
 3. If no duplicates are found after completing the loop, return `false`.
+
+## 🔍 Solution
+
+class Solution:
+    def containsDuplicate(self, nums: List[int]) -> bool:
+        result = set()
+        for i in nums:
+            if i in result:
+                return True
+            result.add(i)
+        return False
  
