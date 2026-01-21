@@ -38,5 +38,3 @@ class Solution:
                 return True
             result.add(i)
         return False
-
- 
