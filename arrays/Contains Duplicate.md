@@ -29,7 +29,7 @@ Using a set allows for fast lookup, making the solution efficient.
 3. If no duplicates are found after completing the loop, return `false`.
 
 ## 🔍 Solution
-
+```
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         result = set()
@@ -38,4 +38,5 @@ class Solution:
                 return True
             result.add(i)
         return False
+
  
