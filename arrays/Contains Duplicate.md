@@ -1,5 +1,5 @@
 # 🧩 Contains Duplicate (217)
-Problem 217 in Leetcode
+
 ## 📌 Problem Description
 
 The goal of this problem is to check for duplicates in an integer array.
